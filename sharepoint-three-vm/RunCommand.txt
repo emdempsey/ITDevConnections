@@ -1,4 +1,4 @@
-$TemplateFile = 'https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/sharepoint-three-vm/azuredeploy.json'
+$TemplateFile = 'https://raw.githubusercontent.com/emdempsey/ITDevConnections/master/sharepoint-three-vm/azuredeploy.json'
 $ResourceGroupName = 'emdspc'
 $location = 'West US'
 

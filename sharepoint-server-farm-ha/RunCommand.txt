@@ -1,0 +1,6 @@
+#$TemplateFile = 'https://raw.githubusercontent.com/emdempsey/ITDevConnections/master/sharepoint-server-farm-ha/azuredeploy.json'
+$TemplateFile = 'https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/sharepoint-three-vm/azuredeploy.json'
+$ResourceGroupName = 'dumpspc'
+$location = 'West US'
+
+New-AzureResourceGroup -Name $ResourceGroupName -Location $location -TemplateFile $TemplateFile -Force -Verbose

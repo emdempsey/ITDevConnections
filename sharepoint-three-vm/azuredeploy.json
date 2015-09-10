@@ -7,13 +7,14 @@
       "metadata": {
         "Description": "The name of the Sharepoint farm"
       },
-      "defaultValue": "SharepointFarm"
+      "defaultValue": "emdsp"
     },
     "newStorageAccountName": {
       "type": "string",
       "metadata": {
         "Description": "The name of the new storage account created to store the VMs disks"
-      }
+      },
+      "defaultValue": "emdspstor01"
     },
     "storageAccountType": {
       "type": "string",
@@ -40,7 +41,8 @@
       ],
       "metadata": {
         "Description": "The region to deploy the resources into"
-      }
+      },
+      "defaultValue": "West US"
     },
     "virtualNetworkName": {
       "type": "string",
@@ -95,7 +97,8 @@
       "type": "securestring",
       "metadata": {
         "Description": "The password forthe Administrator account of the new VM and Domain"
-      }
+      },
+      "defaultValue": "Office365"
     },
     "adVMSize": {
       "type": "string",
@@ -190,7 +193,8 @@
       "type": "securestring",
       "metadata": {
         "Description": "The SQL Server Service account password"
-      }
+      },
+      "defaultValue": "Office365"
     },
     "sharePointSetupUserAccountUserName": {
       "type": "string",
@@ -203,7 +207,8 @@
       "type": "securestring",
       "metadata": {
         "Description": "The Sharepoint Setup account password"
-      }
+      },
+      "defaultValue": "Office365"
     },
     "sharePointFarmAccountUserName": {
       "type": "string",
@@ -216,13 +221,15 @@
       "type": "securestring",
       "metadata": {
         "Description": "The Sharepoint Farm account password"
-      }
+      },
+      "defaultValue": "Office365"
     },
     "sharePointFarmPassphrasePassword": {
       "type": "securestring",
       "metadata": {
         "Description": "The Sharepoint Farm Passphrase"
-      }
+      },
+      "defaultValue": "Office365"
     },
     "configDatabaseName": {
       "type": "string",
@@ -256,19 +263,22 @@
       "type": "string",
       "metadata": {
         "Description": "The DNS Prefix for the AD Public IP Address"
-      }
+      },
+      "defaultValue": "emdspad"
     },
     "sqlDNSPrefix": {
       "type": "string",
       "metadata": {
         "Description": "The DNS Prefix for the SQL Public IP Address"
-      }
+      },
+      "defaultValue": "emdspsql"
     },
     "spDNSPrefix": {
       "type": "string",
       "metadata": {
         "Description": "The DNS Prefix for the SharePoint Public IP Address"
-      }
+      },
+      "defaultValue": "emdsp"
     }
   },
   "variables": {

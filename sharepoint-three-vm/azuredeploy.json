@@ -14,7 +14,7 @@
       "metadata": {
         "Description": "The name of the new storage account created to store the VMs disks"
       },
-      "defaultValue": "emdspstor01"
+      "defaultValue": "itdc1stor01"
     },
     "storageAccountType": {
       "type": "string",

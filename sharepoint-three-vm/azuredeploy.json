@@ -264,21 +264,21 @@
       "metadata": {
         "Description": "The DNS Prefix for the AD Public IP Address"
       },
-      "defaultValue": "emdspad"
+      "defaultValue": "itdc1ad"
     },
     "sqlDNSPrefix": {
       "type": "string",
       "metadata": {
         "Description": "The DNS Prefix for the SQL Public IP Address"
       },
-      "defaultValue": "emdspsql"
+      "defaultValue": "itdc1ql"
     },
     "spDNSPrefix": {
       "type": "string",
       "metadata": {
         "Description": "The DNS Prefix for the SharePoint Public IP Address"
       },
-      "defaultValue": "emdsp"
+      "defaultValue": "itdc1sp"
     }
   },
   "variables": {

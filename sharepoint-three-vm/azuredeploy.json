@@ -751,7 +751,7 @@
           "properties": {
             "publisher": "Microsoft.Powershell",
             "type": "DSC",
-            "typeHandlerVersion": "1.7",
+            "typeHandlerVersion": "2.4",
             "settings": {
               "ModulesUrl": "[variables('adModulesURL')]",
               "ConfigurationFunction": "[variables('adConfigurationFunction')]",
@@ -888,7 +888,7 @@
       "properties": {
         "publisher": "Microsoft.Powershell",
         "type": "DSC",
-        "typeHandlerVersion": "1.7",
+        "typeHandlerVersion": "2.4",
         "settings": {
           "ModulesUrl": "[variables('sqlModulesURL')]",
           "ConfigurationFunction": "[variables('sqlConfigurationFunction')]",
@@ -989,7 +989,7 @@
           "properties": {
             "publisher": "Microsoft.Powershell",
             "type": "DSC",
-            "typeHandlerVersion": "1.7",
+            "typeHandlerVersion": "2.4",
             "settings": {
               "ModulesUrl": "[variables('spModulesURL')]",
               "ConfigurationFunction": "[variables('spConfigurationFunction')]",

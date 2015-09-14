@@ -7,14 +7,14 @@
       "metadata": {
         "Description": "The name of the Sharepoint farm"
       },
-      "defaultValue": "itdc1"
+      "defaultValue": "itdc2"
     },
     "newStorageAccountName": {
       "type": "string",
       "metadata": {
         "Description": "The name of the new storage account created to store the VMs disks"
       },
-      "defaultValue": "itdc1stor01"
+      "defaultValue": "itdc2stor01"
     },
     "storageAccountType": {
       "type": "string",
@@ -49,7 +49,7 @@
       "metadata": {
         "Description": "The name of the Virtual Network to Create"
       },
-      "defaultValue": "spfarmVNET"
+      "defaultValue": "spfarmVNET1"
     },
     "virtualNetworkAddressRange": {
       "type": "string",
@@ -264,21 +264,21 @@
       "metadata": {
         "Description": "The DNS Prefix for the AD Public IP Address"
       },
-      "defaultValue": "itdc1ad"
+      "defaultValue": "itdc2ad"
     },
     "sqlDNSPrefix": {
       "type": "string",
       "metadata": {
         "Description": "The DNS Prefix for the SQL Public IP Address"
       },
-      "defaultValue": "itdc1ql"
+      "defaultValue": "itdc2ql"
     },
     "spDNSPrefix": {
       "type": "string",
       "metadata": {
         "Description": "The DNS Prefix for the SharePoint Public IP Address"
       },
-      "defaultValue": "itdc1sp"
+      "defaultValue": "itdc2sp"
     }
   },
   "variables": {

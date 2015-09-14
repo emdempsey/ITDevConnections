@@ -1,5 +1,5 @@
 $TemplateFile = 'https://raw.githubusercontent.com/emdempsey/ITDevConnections/master/sharepoint-three-vm/azuredeploy.json'
-$ResourceGroupName = 'emdspc'
+$ResourceGroupName = 'emdspd'
 $location = 'West US'
 
 New-AzureResourceGroup -Name $ResourceGroupName -Location $location -TemplateFile $TemplateFile -Force -Verbose

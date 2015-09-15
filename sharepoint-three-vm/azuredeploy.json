@@ -888,7 +888,7 @@
       "properties": {
         "publisher": "Microsoft.Powershell",
         "type": "DSC",
-        "typeHandlerVersion": "2.4",
+        "typeHandlerVersion": "1.7",
         "settings": {
           "ModulesUrl": "[variables('sqlModulesURL')]",
           "ConfigurationFunction": "[variables('sqlConfigurationFunction')]",

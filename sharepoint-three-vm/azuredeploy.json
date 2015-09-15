@@ -7,14 +7,14 @@
       "metadata": {
         "Description": "The name of the Sharepoint farm"
       },
-      "defaultValue": "itdc3"
+      "defaultValue": "itdc5"
     },
     "newStorageAccountName": {
       "type": "string",
       "metadata": {
         "Description": "The name of the new storage account created to store the VMs disks"
       },
-      "defaultValue": "itdc3stor01"
+      "defaultValue": "itdc5stor01"
     },
     "storageAccountType": {
       "type": "string",
@@ -264,21 +264,21 @@
       "metadata": {
         "Description": "The DNS Prefix for the AD Public IP Address"
       },
-      "defaultValue": "itdc3ad"
+      "defaultValue": "itdc5ad"
     },
     "sqlDNSPrefix": {
       "type": "string",
       "metadata": {
         "Description": "The DNS Prefix for the SQL Public IP Address"
       },
-      "defaultValue": "itdc3ql"
+      "defaultValue": "itdc5sql"
     },
     "spDNSPrefix": {
       "type": "string",
       "metadata": {
         "Description": "The DNS Prefix for the SharePoint Public IP Address"
       },
-      "defaultValue": "itdc3sp"
+      "defaultValue": "itdc5sp"
     }
   },
   "variables": {
